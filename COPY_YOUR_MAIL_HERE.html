@@ -1,0 +1,100 @@
+﻿Delivered-To: agudoperez.olivier@gmail.com
+Received: by 10.202.227.80 with SMTP id a77csp1114630oih;
+        Sun, 22 Jan 2017 23:24:38 -0800 (PST)
+X-Received: by 10.28.189.135 with SMTP id n129mr11577714wmf.92.1485156277669;
+        Sun, 22 Jan 2017 23:24:37 -0800 (PST)
+Return-Path: <1lifi2-1-owner@uha.fr>
+Received: from serv-pmx.univ-mulhouse.fr (serv-pmx.univ-mulhouse.fr. [2001:660:4749::112])
+        by mx.google.com with ESMTPS id n54si12233544wrn.247.2017.01.22.23.24.37
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Sun, 22 Jan 2017 23:24:37 -0800 (PST)
+Received-SPF: pass (google.com: domain of 1lifi2-1-owner@uha.fr designates 2001:660:4749::112 as permitted sender) client-ip=2001:660:4749::112;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of 1lifi2-1-owner@uha.fr designates 2001:660:4749::112 as permitted sender) smtp.mailfrom=1lifi2-1-owner@uha.fr
+Received: from serv-pmx.univ-mulhouse.fr (localhost [127.0.0.1]) by localhost (Postfix) with SMTP id CC68E1021F8; Mon, 23 Jan 2017 08:24:36 +0100 (CET)
+Received: from diis-zproxy10.univ-mulhouse.fr (unknown [192.93.19.128]) (using TLSv1.2 with cipher AECDH-AES256-SHA (256/256 bits)) (No client certificate requested) by serv-pmx.univ-mulhouse.fr (Postfix) with ESMTPS id BA2EE102310; Mon, 23 Jan 2017 08:24:35 +0100 (CET)
+Received: from localhost (localhost.localdomain [127.0.0.1]) by diis-zproxy10.univ-mulhouse.fr (Postfix) with ESMTP id 9B0A822006C; Mon, 23 Jan 2017 08:24:35 +0100 (CET)
+Received: from diis-zproxy10.univ-mulhouse.fr ([127.0.0.1]) by localhost (diis-zproxy10.univ-mulhouse.fr [127.0.0.1]) (amavisd-new, port 10032) with ESMTP id wvHmLUT2nX2d; Mon, 23 Jan 2017 08:24:35 +0100 (CET)
+Received: from localhost (localhost.localdomain [127.0.0.1]) by diis-zproxy10.univ-mulhouse.fr (Postfix) with ESMTP id 434E72200DE; Mon, 23 Jan 2017 08:24:35 +0100 (CET)
+X-Virus-Scanned: amavisd-new at diis-zproxy10.univ-mulhouse.fr
+Received: from diis-zproxy10.univ-mulhouse.fr ([127.0.0.1]) by localhost (diis-zproxy10.univ-mulhouse.fr [127.0.0.1]) (amavisd-new, port 10026) with ESMTP id bip7F8VNRZmo; Mon, 23 Jan 2017 08:24:35 +0100 (CET)
+Received: from diis-zmstore12.univ-mulhouse.fr (diis-zmstore12.univ-mulhouse.fr [10.115.0.232]) by diis-zproxy10.univ-mulhouse.fr (Postfix) with ESMTPS id 1255522006C; Mon, 23 Jan 2017 08:24:35 +0100 (CET)
+Received: from localhost (localhost.localdomain [127.0.0.1]) by diis-zmstore12.univ-mulhouse.fr (Postfix) with ESMTP id E68DF6E088F; Mon, 23 Jan 2017 08:24:34 +0100 (CET)
+Received: from diis-zmstore12.univ-mulhouse.fr ([127.0.0.1]) by localhost (diis-zmstore12.univ-mulhouse.fr [127.0.0.1]) (amavisd-new, port 10024) with ESMTP id tXN4W8L6afip; Mon, 23 Jan 2017 08:24:34 +0100 (CET)
+Received: from serv-pmx.univ-mulhouse.fr (serv-pmx.univ-mulhouse.fr [192.93.19.112]) by diis-zmstore12.univ-mulhouse.fr (Postfix) with ESMTPS id A654C6E073D; Mon, 23 Jan 2017 08:24:34 +0100 (CET)
+Received: from serv-pmx.univ-mulhouse.fr (localhost [127.0.0.1]) by localhost (Postfix) with SMTP id 9E65B1022FA; Mon, 23 Jan 2017 08:24:34 +0100 (CET)
+Received: from orion.univ-mulhouse.fr (orion.univ-mulhouse.fr [10.9.0.10]) (using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits)) (No client certificate requested) by serv-pmx.univ-mulhouse.fr (Postfix) with ESMTPS id 46A0710200A; Mon, 23 Jan 2017 08:24:33 +0100 (CET)
+Received: from serv-pmx.univ-mulhouse.fr (serv-pmx.univ-mulhouse.fr [192.93.19.112]) by orion.univ-mulhouse.fr (8.13.1/8.13.1) with ESMTP id v0N7OW7A031022; Mon, 23 Jan 2017 08:24:32 +0100
+Received: from serv-pmx.univ-mulhouse.fr (localhost [127.0.0.1]) by localhost (Postfix) with SMTP id BF82410230E; Mon, 23 Jan 2017 08:24:32 +0100 (CET)
+Received: from smtpmul2.univ-mulhouse.fr (smtpmul2.univ-mulhouse.fr [10.9.0.22]) (using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits)) (No client certificate requested) by serv-pmx.univ-mulhouse.fr (Postfix) with ESMTPS id 74CB510200A; Mon, 23 Jan 2017 08:24:31 +0100 (CET)
+Received: from is-lidiff.univ-mulhouse.fr (is-lidiff.univ-mulhouse.fr [10.9.0.62]) by smtpmul2.univ-mulhouse.fr (8.13.8/8.13.8) with ESMTP id v0N7OVwj021812; Mon, 23 Jan 2017 08:24:31 +0100
+Received: by is-lidiff.univ-mulhouse.fr (Postfix, from userid 1001) id 3996B1840FC1; Mon, 23 Jan 2017 08:24:31 +0100 (CET)
+X-Original-To: 1lifi2-1@is-lidiff.univ-mulhouse.fr
+Delivered-To: 1lifi2-1@is-lidiff.univ-mulhouse.fr
+Received: from serv-pmx.univ-mulhouse.fr (serv-pmx.univ-mulhouse.fr [192.93.19.112]) by is-lidiff.univ-mulhouse.fr (Postfix) with ESMTPS id A40261840F38 for <1lifi2-1@is-lidiff.univ-mulhouse.fr>; Mon, 23 Jan 2017 08:24:25 +0100 (CET)
+Received: from serv-pmx.univ-mulhouse.fr (localhost [127.0.0.1]) by localhost (Postfix) with SMTP id 9CC411022FA for <1lifi2-1@is-lidiff.univ-mulhouse.fr>; Mon, 23 Jan 2017 08:24:25 +0100 (CET)
+Received: from orion.univ-mulhouse.fr (orion.univ-mulhouse.fr [10.9.0.10]) (using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits)) (No client certificate requested) by serv-pmx.univ-mulhouse.fr (Postfix) with ESMTPS id DD6D610200A for <1lifi2-1@is-lidiff.univ-mulhouse.fr>; Mon, 23 Jan 2017 08:24:24 +0100 (CET)
+Received: from serv-pmx.univ-mulhouse.fr (serv-pmx.univ-mulhouse.fr [192.93.19.112]) by orion.univ-mulhouse.fr (8.13.1/8.13.1) with ESMTP id v0N7OOCE031012 for <1LIFI2-1@uha.fr>; Mon, 23 Jan 2017 08:24:24 +0100
+Received: from serv-pmx.univ-mulhouse.fr (localhost [127.0.0.1]) by localhost (Postfix) with SMTP id A90C01021F8 for <1LIFI2-1@uha.fr>; Mon, 23 Jan 2017 08:24:24 +0100 (CET)
+Received: from smtpmul2.univ-mulhouse.fr (smtpmul2.univ-mulhouse.fr [10.9.0.22]) (using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits)) (No client certificate requested) by serv-pmx.univ-mulhouse.fr (Postfix) with ESMTPS id F2A7810200A for <1LIFI2-1@uha.fr>; Mon, 23 Jan 2017 08:24:23 +0100 (CET)
+Received: from diis-zproxy14.univ-mulhouse.fr (e-partage.uha.fr [192.93.19.132]) by smtpmul2.univ-mulhouse.fr (8.13.8/8.13.8) with ESMTP id v0N7ONEG021807 for <1LIFI2-1@uha.fr>; Mon, 23 Jan 2017 08:24:23 +0100
+Received: from localhost (localhost [127.0.0.1]) by diis-zproxy14.univ-mulhouse.fr (Postfix) with ESMTP id A71D91E0C41 for <1LIFI2-1@uha.fr>; Mon, 23 Jan 2017 08:24:23 +0100 (CET)
+Received: from diis-zproxy14.univ-mulhouse.fr ([127.0.0.1]) by localhost (diis-zproxy14.univ-mulhouse.fr [127.0.0.1]) (amavisd-new, port 10026) with ESMTP id SdAxN9TddUIh for <1LIFI2-1@uha.fr>; Mon, 23 Jan 2017 08:24:23 +0100 (CET)
+Received: from orgyen.univ-mulhouse.fr (orgyen.univ-mulhouse.fr [10.97.0.56]) by diis-zproxy14.univ-mulhouse.fr (Postfix) with ESMTPSA id 757B51E0C2F for <1LIFI2-1@uha.fr>; Mon, 23 Jan 2017 08:24:23 +0100 (CET)
+Subject: [L2 INFO] Cours interfaces
+To: L2 Info <1LIFI2-1@uha.fr>
+References: <582C791D.7030205@uha.fr> <583D43B6.6060808@uha.fr> <5845746B.4030201@uha.fr>
+From: "Rivière Stéphane" <stephane.riviere@uha.fr>
+Message-ID: <5885B0F8.9000402@uha.fr>
+Date: Mon, 23 Jan 2017 08:30:00 +0100
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:38.0) Gecko/20100101 Thunderbird/38.7.2
+MIME-Version: 1.0
+In-Reply-To: <5845746B.4030201@uha.fr>
+Content-Type: multipart/mixed; boundary="------------020306010600050402050007"
+Reply-To: "Rivière Stéphane" <stephane.riviere@uha.fr>
+X-Loop: 1lifi2-1@uha.fr
+X-Sequence: 57
+Errors-To: 1lifi2-1-owner@uha.fr
+Precedence: list
+Precedence: bulk
+Sender: 1lifi2-1-request@uha.fr
+X-no-archive: yes
+List-Id: <1lifi2-1.uha.fr>
+List-Help: <mailto:sympa@uha.fr?subject=help>
+List-Subscribe: <mailto:sympa@uha.fr?subject=subscribe%201lifi2-1>
+List-Unsubscribe: <mailto:sympa@uha.fr?subject=unsubscribe%201lifi2-1>
+List-Post: <mailto:1lifi2-1@uha.fr>
+List-Owner: <mailto:1lifi2-1-request@uha.fr>
+
+--------------020306010600050402050007
+Content-Type: text/plain; charset=utf-8; format=flowed
+Content-Transfer-Encoding: quoted-printable
+
+
+Bonjour,
+
+voici le cours d'aujourd'hui : compl=C3=A9ments de C++
+
+cordialement,
+St=C3=A9phane Rivi=C3=A8re
+--=20
+-------------------------------------------------------------------------
+- St=C3=A9phane Rivi=C3=A8re                                   (33) 3 89 33=
+ 60 93 -
+- =C3=89quipe MAGE - LMIA - F.S.T                    stephane.riviere@uha.f=
+r -
+- Universit=C3=A9 de Haute-Alsace                       www.miage.fst.uha.f=
+r -
+- 12 rue des Fr=C3=A8res Lumi=C3=A8re                                      =
+       -
+- 68093 MULHOUSE CEDEX - FRANCE                                         -
+-------------------------------------------------------------------------
+
+
+--------------020306010600050402050007
+Content-Type: x-unknown/octet-stream; name="transp01.pdf"
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="transp01.pdf"
+
+
+--------------020306010600050402050007--
