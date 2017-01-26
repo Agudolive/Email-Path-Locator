@@ -1,3 +1,1 @@
- _            _                             
-|_._ _  _.o| |_)_._|_|_  |  _  _ _._|_ _ ._ 
-|_| | |(_||| | (_| |_| | |_(_)(_(_| |_(_)| 
+A simple Python Script which shows the differents locations of a mail
