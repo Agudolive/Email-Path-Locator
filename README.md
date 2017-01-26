@@ -1,6 +1,6 @@
 # Email Path Locator V0.1
 
-A simple Python Script which shows the differents locations of a mail
+A simple Python Script which shows the differents locations of a mail.
 
 By Agudolive
 
