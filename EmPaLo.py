@@ -1,3 +1,5 @@
+#Email Path Locator by Agudolive
+#All rights reserved
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
